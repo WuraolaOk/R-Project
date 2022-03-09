@@ -24,6 +24,7 @@ plot(monthly_stock_returns$EWRET, monthly_stock_returns$EWRET1)
 #1d. SCATTERPLOT OF ALL THE LOG RETURNS SERIES#
 monthly_stock_returns_log <- monthly_stock_returns[,c(7:11)]
 plot(monthly_stock_returns_log)
+plot(monthly_stock_returns)
 
 #1e. SAMPLE MEAN, VARIANCE, SKEWNESS, EXCESS KURTOSIS, MINIMUM AND MAXIMUM OF LOG RETURNS#
 install.packages("moments")
